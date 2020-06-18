@@ -1,0 +1,36 @@
+/* styles for AIA tables  */
+
+table {
+    border-collapse: collapse;
+    border:1px solid #000;
+    width:80%;
+    margin:auto;
+    background-color:#fff;
+}
+
+tr {
+    vertical-align: top;
+}
+
+
+td, th {
+    border:1px solid #000;
+    padding: .5em;
+}
+
+table.client {
+    margin: 40px auto; /* T R B L */
+}
+
+table.client th {
+    text-align:left;
+    width:30%;
+}
+
+table.audience {
+    margin: 40px auto; /* T R B L */
+}
+
+table.audience th {
+    width:33.3%
+}
